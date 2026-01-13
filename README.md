@@ -73,6 +73,12 @@ viewModelScope.launch {
 - Android SDK 24+ (Android 7.0)
 - Kotlin 1.9.20+
 
+### CommandsToFixJDK
+```kotlin
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export PATH=$JAVA_HOME/bin:$PATH  
+```
+
 ### Setup Steps
 1. **Ensure JDK 17 is installed**
    - Check your JDK version: `java -version`
