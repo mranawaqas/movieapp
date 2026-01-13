@@ -50,7 +50,7 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
-        javaParameters = true
+      //  javaParameters = true
     }
 
     buildFeatures {
@@ -62,8 +62,20 @@ android {
 //// ================= KAPT Configuration =================
 kapt {
     correctErrorTypes = true
-    useBuildCache = true
-    includeCompileClasspath = false
+//    useBuildCache = true
+//    includeCompileClasspath = false
+//    javacOptions {
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED")
+//        option("--add-exports", "jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED")
+//    }
 }
 
 // ================= Dependencies =================
