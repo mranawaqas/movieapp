@@ -2,6 +2,20 @@
 
 An Android application that displays a list of Studio Ghibli movies using a free API, with the ability to mark favorites and persist them locally.
 
+## Screenshots
+
+### Movie List Screen
+![Movie List](Screenshot_20260113_190340.png)
+*Displays all Studio Ghibli movies with posters, titles, and release dates*
+
+### Movie Detail Screen
+![Movie Detail](Screenshot_20260113_190348.png)
+*Shows comprehensive movie information including director, producer, runtime, and description*
+
+### Favorites Screen
+![Favorites](Screenshot_20260113_190329.png)
+*Filtered view showing only favorite movies*
+
 ## API Used
 
 **Studio Ghibli API** - https://ghibliapi.vercel.app/films
