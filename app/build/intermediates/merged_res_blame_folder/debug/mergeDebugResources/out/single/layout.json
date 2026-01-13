@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.moviesapp-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "com.example.moviesapp-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.moviesapp-mergeDebugResources-56:/layout/item_movie.xml",
+        "source": "com.example.moviesapp-main-59:/layout/item_movie.xml"
+    },
+    {
+        "merged": "com.example.moviesapp-mergeDebugResources-56:/layout/fragment_movie_detail.xml",
+        "source": "com.example.moviesapp-main-59:/layout/fragment_movie_detail.xml"
+    },
+    {
+        "merged": "com.example.moviesapp-mergeDebugResources-56:/layout/fragment_movie_list.xml",
+        "source": "com.example.moviesapp-main-59:/layout/fragment_movie_list.xml"
+    }
+]
